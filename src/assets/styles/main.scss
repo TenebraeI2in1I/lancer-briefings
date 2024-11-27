@@ -35,9 +35,9 @@ $text-markdown-p: rgba(255, 255, 255, 0.87);
 $text-markdown-h1: rgba(255, 255, 255, 0.67);
 $text-markdown-h2: rgba(255, 255, 255, 0.87);
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&?family=Big+Shoulders+Display:wght@400;600;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 
@@ -125,7 +125,7 @@ header {
     font-size: 32px;
     margin: 0%;
     align-self: center;
-    font-family: "Montserrat", cursive;
+    font-family: "Big Shoulders Display", cursive;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.15em;
@@ -135,7 +135,7 @@ header {
     font-size: 32px;
     margin: 0%;
     align-self: center;
-    font-family: "Montserrat", cursive;
+    font-family: "Big Shoulders Display", cursive;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.12em;
@@ -146,7 +146,7 @@ header {
     font-size: 24px;
     margin: 0%;
     align-self: center;
-    font-family: "Montserrat", cursive;
+    font-family: "Big Shoulders Display", cursive;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.08em;
@@ -156,7 +156,7 @@ header {
     font-size: 24px;
     margin: 0%;
     align-self: center;
-    font-family: "Lato", cursive;
+    font-family: "Titillium Web", cursive;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.02em;
@@ -243,7 +243,7 @@ div.location-info {
     font-size: 18px;
     margin: 0%;
     align-self: center;
-    font-family: "Montserrat", cursive;
+    font-family: "Big Shoulders Display", cursive;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -318,7 +318,7 @@ section .section-header {
     font-size: 26px;
     margin: 0%;
     align-self: center;
-    font-family: "Montserrat", cursive;
+    font-family: "Big Shoulders Display", cursive;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -340,7 +340,7 @@ section .section-header {
     margin: 0%;
     margin-bottom: 0.5em;
     align-self: center;
-    font-family: "Montserrat", cursive;
+    font-family: "Big Shoulders Display", cursive;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -398,7 +398,7 @@ section .section-header {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   padding-left: 0.75em;
-  font-family: "Lato", cursive;
+  font-family: "Titillium Web", cursive;
   font-weight: 400;
   display: flex;
   align-items: center;
@@ -424,7 +424,7 @@ section .section-header {
     font-size: 18px;
     margin: 0%;
     align-self: center;
-    font-family: "Montserrat", cursive;
+    font-family: "Big Shoulders Display", cursive;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -541,7 +541,7 @@ section .section-header {
     margin: 0%;
     margin-bottom: 0.25em;
     align-self: center;
-    font-family: "Montserrat", cursive;
+    font-family: "Big Shoulders Display", cursive;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -641,7 +641,7 @@ section .section-header {
       font-size: 26px;
       margin: 0%;
       align-self: center;
-      font-family: "Montserrat", cursive;
+      font-family: "Big Shoulders Display", cursive;
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 0.1em;
@@ -758,7 +758,7 @@ div.markdown {
   padding-right: 1em;
   font-size: 16px;
   margin: 0%;
-  font-family: "Lato", cursive;
+  font-family: "Titillium Web", cursive;
   font-weight: 400;
   color: $text-markdown-p;
   border-bottom: 1px solid $primary;
@@ -787,7 +787,7 @@ div.markdown {
     margin: 0%;
     margin-bottom: 1em;
     align-self: center;
-    font-family: "Montserrat", cursive;
+    font-family: "Big Shoulders Display", cursive;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.1em;
