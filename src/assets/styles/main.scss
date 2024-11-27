@@ -35,7 +35,11 @@ $text-markdown-p: rgba(255, 255, 255, 0.87);
 $text-markdown-h1: rgba(255, 255, 255, 0.67);
 $text-markdown-h2: rgba(255, 255, 255, 0.87);
 
-@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400;700&family=Prosto+One&family=Reggae+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&?family=Big+Shoulders+Display:wght@400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 
 @keyframes slideInFromLeft {
   0% {
@@ -121,7 +125,7 @@ header {
     font-size: 32px;
     margin: 0%;
     align-self: center;
-    font-family: "Tektur", sans-serif;
+    font-family: "Big Shoulders Display", cursive;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.15em;
@@ -131,7 +135,7 @@ header {
     font-size: 32px;
     margin: 0%;
     align-self: center;
-    font-family: "Tektur", sans-serif;
+    font-family: "Big Shoulders Display", cursive;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.12em;
@@ -142,7 +146,7 @@ header {
     font-size: 24px;
     margin: 0%;
     align-self: center;
-    font-family: "Tektur", sans-serif;
+    font-family: "Big Shoulders Display", cursive;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.08em;
@@ -152,7 +156,7 @@ header {
     font-size: 24px;
     margin: 0%;
     align-self: center;
-    font-family: "Prosto One", cursive;
+    font-family: "Titillium Web", cursive;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.02em;
@@ -229,7 +233,7 @@ div.location-info {
   h4 {
     margin: 0px;
     line-height: 1.5em;
-    font-family: "Reggae One", cursive;
+    font-family: "Times new roman";
     font-size: 10px;
     font-weight: 800;
     text-transform: uppercase;
@@ -239,7 +243,7 @@ div.location-info {
     font-size: 18px;
     margin: 0%;
     align-self: center;
-    font-family: "Tektur", sans-serif;
+    font-family: "Big Shoulders Display", cursive;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -314,7 +318,7 @@ section .section-header {
     font-size: 26px;
     margin: 0%;
     align-self: center;
-    font-family: "Tektur", sans-serif;
+    font-family: "Big Shoulders Display", cursive;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -336,7 +340,7 @@ section .section-header {
     margin: 0%;
     margin-bottom: 0.5em;
     align-self: center;
-    font-family: "Tektur", sans-serif;
+    font-family: "Big Shoulders Display", cursive;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -394,7 +398,7 @@ section .section-header {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   padding-left: 0.75em;
-  font-family: "Prosto One", cursive;
+  font-family: "Titillium Web", cursive;
   font-weight: 400;
   display: flex;
   align-items: center;
@@ -408,7 +412,7 @@ section .section-header {
     margin: 0px;
     margin-bottom: 0.25em;
     line-height: 1.5em;
-    font-family: "Reggae One", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 10px;
     font-weight: 800;
     text-transform: uppercase;
@@ -420,7 +424,7 @@ section .section-header {
     font-size: 18px;
     margin: 0%;
     align-self: center;
-    font-family: "Tektur", sans-serif;
+    font-family: "Big Shoulders Display", cursive;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -524,7 +528,7 @@ section .section-header {
     margin: 0px;
     margin-bottom: 0.25em;
     line-height: 1.5em;
-    font-family: "Reggae One", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 10px;
     font-weight: 800;
     text-transform: uppercase;
@@ -537,7 +541,7 @@ section .section-header {
     margin: 0%;
     margin-bottom: 0.25em;
     align-self: center;
-    font-family: "Tektur", sans-serif;
+    font-family: "Big Shoulders Display", cursive;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -545,7 +549,7 @@ section .section-header {
   }
 
   .code {
-    font-family: "Roboto", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-weight: 400;
     line-height: 1.25em;
     font-size: 11px;
@@ -637,7 +641,7 @@ section .section-header {
       font-size: 26px;
       margin: 0%;
       align-self: center;
-      font-family: "Tektur", sans-serif;
+      font-family: "Big Shoulders Display", cursive;
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 0.1em;
@@ -724,7 +728,7 @@ footer {
   color: $text-location;
   transition: 2s ease-in-out;
   p {
-    font-family: "Roboto", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-weight: 400;
     line-height: 1.25em;
     font-size: 11px;
@@ -732,7 +736,7 @@ footer {
     flex-grow: 2;
   }
   a {
-    font-family: "Roboto", sans-serif;
+    font-family: "Inconsolata", monospace;
     font-weight: 400;
     line-height: 1.25em;
     font-size: 11px;
@@ -754,7 +758,7 @@ div.markdown {
   padding-right: 1em;
   font-size: 16px;
   margin: 0%;
-  font-family: "Prosto One", cursive;
+  font-family: "Titillium Web", cursive;
   font-weight: 400;
   color: $text-markdown-p;
   border-bottom: 1px solid $primary;
@@ -770,7 +774,7 @@ div.markdown {
     margin: 0px;
     margin-bottom: 0.25em;
     line-height: 1.5em;
-    font-family: "Reggae One", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 10px;
     font-weight: 800;
     text-transform: uppercase;
@@ -783,7 +787,7 @@ div.markdown {
     margin: 0%;
     margin-bottom: 1em;
     align-self: center;
-    font-family: "Tektur", sans-serif;
+    font-family: "Big Shoulders Display", cursive;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -802,7 +806,7 @@ div.markdown {
     list-style-image: url("../bullet.png");
   }
 
-  ol {
+  ol{
     display: block;
     margin-block-start: 0.25em;
     margin-block-end: 0.25em;
@@ -810,8 +814,8 @@ div.markdown {
     margin-inline-end: 0px;
     padding-inline-start: 20px;
     margin-bottom: 1em;
-    li {
-      margin-bottom: 0.5em;
+    li{
+      margin-bottom:0.5em;
     }
   }
 }
